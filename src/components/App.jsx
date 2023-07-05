@@ -19,7 +19,7 @@ function App() {
   }
   return (
     <div className="container">
-      <div className="meow">
+      <div >
         <pre>
           <h1>
             {count <= 34
@@ -33,11 +33,11 @@ function App() {
         </pre>
       </div>
       <h1>{count}</h1>
-      <button type="button" class="btn btn-outline-success" onClick={increase}>
+      <button type="button" class="btn btn-success" onClick={increase}>
         +
       </button>
       <div></div>
-      <button type="button" class="btn btn-outline-success" onClick={restet}>
+      <button type="button" class="btn btn-success" onClick={restet}>
         re
       </button>
     </div>
