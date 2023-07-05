@@ -37,7 +37,7 @@ function App() {
         +
       </button>
       <div></div>
-      <button type="button" class="btn btn-dark" onClick={restet}>
+      <button type="button" class="btn btn-dark" onClick={restet} >
         re
       </button>
     </div>
