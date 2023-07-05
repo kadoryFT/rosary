@@ -19,7 +19,7 @@ function App() {
   }
   return (
     <div className="container">
-      <div >
+      <div>
         <pre>
           <h1>
             {count <= 34
